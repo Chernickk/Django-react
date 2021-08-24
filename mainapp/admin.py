@@ -1,3 +1,8 @@
 from django.contrib import admin
+from .models import DayToDoList, DayNote, DayToDoPoints, GlobalToDoPoints, GlobalToDoList
 
-# Register your models here.
+admin.site.register(DayNote)
+admin.site.register(DayToDoList)
+admin.site.register(DayToDoPoints)
+admin.site.register(GlobalToDoPoints)
+admin.site.register(GlobalToDoList)
