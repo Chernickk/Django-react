@@ -5,6 +5,7 @@ admin.site.register(DiaryUser)
 admin.site.register(DiaryUser)
 admin.site.register(DiaryUser)
 admin.site.register(DiaryUser)
+admin.site.register(DiaryUser)
 
 admin.site.register(UserSettings)
 admin.site.register(UserWhiteList)
